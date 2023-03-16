@@ -1,0 +1,54 @@
+.search {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.search input {
+  width: 160px;
+  height: 30px;
+  border: none;
+  margin-right: 20px;
+  outline: none;
+  border-bottom: 1px solid #8b8e92;
+}
+.search button {
+  width: 80px;
+  height: 40px;
+}
+.search button:hover {
+  cursor: pointer;
+}
+
+.repository {
+  display: flex;
+  border-bottom: 1px solid #8b8e92;
+}
+.repository:not(:last-child) {
+  margin-bottom: 30px;
+}
+.repository .repository__img {
+  margin-right: 10px;
+}
+.repository .repository__img img {
+  width: 30px;
+}
+.repository .repository__content a {
+  color: #0969da;
+  text-decoration: none;
+}
+.repository .repository__content .content__optionally {
+  display: flex;
+  align-items: center;
+  color: #57606a;
+  margin-bottom: 10px;
+}
+.repository .repository__content .content__optionally p {
+  margin: 0;
+}
+.repository .repository__content .content__optionally img {
+  width: 15px;
+  margin-right: 5px;
+}
+.repository .repository__content .content__optionally .content__language, .repository .repository__content .content__optionally .content__owner {
+  margin-left: 10px;
+}/*# sourceMappingURL=style.css.map */
